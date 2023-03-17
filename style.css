@@ -281,7 +281,7 @@ h1{
         margin-left: 0;
     }
     .text-foto{
-        margin-top: 140px;
+        margin-top: 73px;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -305,7 +305,7 @@ h1{
     width: 100%;
     margin-top: 88px;
     background-color: #EDF7FA;
-    height: 647px;
+    height: 100vh;
 }
 .only-text {
     margin-left: 18px;
@@ -410,5 +410,7 @@ h1{
     background-image: url(images/menu.png);
 
 }
+
 }
+
     
