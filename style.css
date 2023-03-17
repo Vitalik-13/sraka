@@ -257,7 +257,7 @@ h1{
     color: #21243D;
 
 }
-@media(max-width:720px){
+@media(max-width:760px){
     *{
         box-sizing: border-box;
         margin: 0;
@@ -378,11 +378,11 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 6px;
-    height: 480px
+    height: 517px;
 }
 .last-link {
     margin: 26px auto 54px;
-    width: 222px;
+    width: 31%;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -401,7 +401,10 @@ h1{
 } 
 .phone-menu{
     display: block;
-    margin-left: 632px;
+}
+.phone-menu{
+    display: block;
+    margin-left: 90%;
     margin-top: 20px;
     width: 30px;
     height: 21px;
