@@ -305,7 +305,7 @@ h1{
     width: 100%;
     margin-top: 88px;
     background-color: #EDF7FA;
-    height: 510px;;
+    height: 647px;
 }
 .only-text {
     margin-left: 18px;
@@ -381,8 +381,7 @@ h1{
     height: 517px;
 }
 .last-link {
-    margin: 26px auto 54px;
-    width: 31%;
+    width: 222px;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
