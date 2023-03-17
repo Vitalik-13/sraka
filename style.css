@@ -22,6 +22,9 @@ header{
    
     
 }
+.phone-menu{
+    display: none;
+}
 
 .menu li a {
     width: 93px;
@@ -302,7 +305,7 @@ h1{
     width: 100%;
     margin-top: 88px;
     background-color: #EDF7FA;
-    height: 647px;
+    height: 510px;;
 }
 .only-text {
     margin-left: 18px;
@@ -347,13 +350,35 @@ h1{
 .fotka-one {
     background-position: center;
     width: 100%;
-    /* height: 581px; */
     background-image: url(images/перше-фото.png);
     transition: transform 0.5s ease;
     margin-bottom: 30px;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 6px;
+    height: 480px;
+}
+.fotka-two{
+    background-position: center;
+    width: 100%;
+    background-image: url(images/друге\ фото.png);
+    transition: transform 0.5s ease;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    height: 480px
+}
+.fotka-three{
+    background-position: center;
+    width: 100%;
+    background-image: url(images/третє-фото.png);
+    transition: transform 0.5s ease;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    height: 480px
 }
 .last-link {
     margin: 26px auto 54px;
@@ -365,5 +390,23 @@ h1{
     text-decoration: none;
     color: #21243D;
 }
-    }
+.mega-titile {
+    margin-left: 23px;
+    margin-top: 24px;
+    margin-bottom: 17px;
+    width: 77%;
+}
+.two-link{
+    margin-left: 22px;
+} 
+.phone-menu{
+    display: block;
+    margin-left: 632px;
+    margin-top: 20px;
+    width: 30px;
+    height: 21px;
+    background-image: url(images/menu.png);
+
+}
+}
     
