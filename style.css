@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Heebo';
+}
+header{
+    width:100%;
+}
+.header-menu{
+    width: 1152px;
+    margin: 0 auto;
+}
+.menu{
+    width: 25%;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 856px;
+   
+    
+}
+
+.menu li a {
+    width: 93px;
+    height: 42px;
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: black;
+}
+.menu li a:hover{
+    margin-top: 5px;
+}
+.row{
+    width: 1152px;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto ;
+    width: 78%;
+}
+.text-foto{
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    flex: none;
+    order: 1;
+    flex-grow: 0
+}
+
+.one-paragraph{
+    margin-bottom: 38px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.knopka{
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.row-2{
+    width: 100%;
+    margin-top: 88px;
+    background-color:  #EDF7FA;
+    height: 369px;
+
+}
+.small-text{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recent{
+    margin-top: 7px;;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.link{
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+    text-decoration: none;
+}
+.many-text{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.one-text{
+    width: 49%;
+    background-color: #ffff;
+  
+
+}
+.two-text{
+    width: 49%;
+    background-color: #ffff;
+   
+}
+.mega-titile{
+    margin-left: 23px;
+    margin-top: 24px;
+    margin-bottom: 17px;
+    width: 84%;
+}
+.first-title{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+.two-titile{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 17px;
+    margin-bottom: 11px;
+}
+.paragraph-title{
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    border-right: 1px solid black;
+ 
+}
+.paragraph-two-title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 26px;  
+    
+}
+
+.prosto{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #21243D;
+}
+.fotka-one{
+    width: 246px;
+    height: 180px;
+    background-image: url(images/перше-фото.png);
+    transition: transform 0.5s ease;
+}
+.fotka-one:hover {
+    transform: rotate(360deg);
+  }
+.fotka-two{
+    width: 246px;
+    height: 180px;
+    background-image: url(images/друге\ фото.png);
+    margin-bottom: 35px;
+    transition: transform 0.5s ease;
+}
+.fotka-two:hover {
+    transform: rotate(360deg);
+  }
+.fotka-three{
+    width: 246px;
+    height: 180px;
+    background-image: url(images/третє-фото.png);
+    margin-bottom: 35px;
+    transition: transform 0.5s ease;
+}
+.fotka-three:hover {
+    transform: rotate(360deg);
+  }
+.fotka-and-text{
+    display: flex;
+    margin-bottom: 15px;
+}
+.only-text{
+    margin-left: 18px;
+    width: 66%;
+}
+.three-title{
+    font-weight: 700;
+    font-size: 30px;
+   
+}
+.two-knopka {
+    margin-top: 20px;
+    width: 62px;
+    height: 25px;
+    background-color: #142850;
+    border-radius: 16px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 5px;
+    color: #ffff;
+    text-align: center;
+}
+.two-link{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+     margin-left: 26px;
+     text-decoration: none;
+     margin-bottom: 17px;
+}
+.last-text{
+    margin-top: 17px;
+}
+.border{
+    width: 100%;
+    height: 1px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 31px;
+}
+.social-network {
+    display: flex;
+    width: 25%;
+    margin: 140px auto 0;
+    justify-content: space-between;
+}
+
+.last-link{
+    margin: 26px auto 54px ;
+    width: 25%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: block;
+    text-decoration: none;
+    color: #21243D;
+
+}
+@media(max-width:720px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Heebo';
+    }
+    header{
+        width:100%;
+    }
+    .row{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .menu {
+        width: 25%;
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+    .text-foto{
+        margin-top: 140px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .big-text{
+        text-align: center;
+    }
+    .foto{
+        text-align: center;
+    }
+    .menu{
+        display: none;
+    }
+
+    .link{
+        display: none;
+    }
+    .row-2{  
+    width: 100%;
+    margin-top: 88px;
+    background-color: #EDF7FA;
+    height: 647px;
+}
+.only-text {
+    margin-left: 18px;
+    width: 100%;
+}
+.fotka-and-text {
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+.container {
+    margin: 0 auto;
+    width: 95%;
+}
+.small-text {
+  display: block;
+  
+}
+.recent {
+    margin-top: 7px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    text-align: center;
+}
+.many-text {
+    width: 100%;
+    display: block;
+}
+.one-text {
+    width: 100%;
+    background-color: #ffff;
+}
+.fotka-one {
+    width: 246px;
+    height: 180px;
+    background-image: url(images/перше-фото.png);
+    transition: transform 0.5s ease;
+    margin-bottom: 30px;
+}
+.fotka-one {
+    background-position: center;
+    width: 100%;
+    /* height: 581px; */
+    background-image: url(images/перше-фото.png);
+    transition: transform 0.5s ease;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+.last-link {
+    margin: 26px auto 54px;
+    width: 222px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: block;
+    text-decoration: none;
+    color: #21243D;
+}
+    }
+    
